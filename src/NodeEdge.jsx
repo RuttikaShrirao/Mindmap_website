@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ReactFlow, { Controls, MiniMap } from "react-flow-renderer";
-import { useNodesState, useEdgesState, addEdge, Background } from "reactflow";
+import ReactFlow, { Controls } from "react-flow-renderer";
+import { useNodesState, useEdgesState} from "reactflow";
 import "./App.css";
 
 const initialNodes = [

@@ -1,5 +1,4 @@
 
-import ReactFlow, { Controls, MiniMap } from 'react-flow-renderer';
 import NodeEdge from "./NodeEdge";
 
 function App() {
