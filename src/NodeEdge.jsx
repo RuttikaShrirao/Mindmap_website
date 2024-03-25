@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactFlow, { Controls } from "react-flow-renderer";
 import { useNodesState, useEdgesState} from "reactflow";
-import "./App.css";
 
 const initialNodes = [
   {
@@ -155,8 +154,8 @@ export default function NodeEdge() {
       setHoveredNode(node);
       var x = e.clientX,
         y = e.clientY;
-      tooltip.style.top = y + 10 + "px";
-      tooltip.style.left = x + 10 + "px";
+      tooltip.style.top = y + 20 + "px";
+      tooltip.style.left = x + 20 + "px";
       tooltip.style.zIndex = 1;
     };
   };
